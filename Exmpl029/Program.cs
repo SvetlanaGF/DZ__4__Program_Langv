@@ -18,12 +18,6 @@ for (int i=0;i<array.Length; i++)
     array[i] = int.Parse(Console.ReadLine());
 }
 
-//Metod1 
-
-//int N = Console.ReadLine();
-
-//var array = new [] {Convert.ToString(Console.ReadLine())};
-//int dlinna = array.Length;
 Console.WriteLine($"Получен массив из {array.Length} элементов.");
 Console.Write($"[ ");
 for (int i=0;i<array.Length;i++)
